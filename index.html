@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christian Chibuike | Full Stack Developer Profile</title>
+    <meta name="description" content="Professional profile card for Christian Chibuike, Full Stack Developer.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="container">
+        <article class="profile-card" data-testid="test-profile-card">
+            <div class="profile-content">
+                <!-- Avatar Section -->
+                <figure class="profile-avatar-container">
+                    <img src="https://avatars.githubusercontent.com/u/132353088?v=4&size=150"
+                        alt="Christian Chibuike Profile Photo" class="profile-avatar" data-testid="test-user-avatar">
+                </figure>
+
+                <!-- Information Section -->
+                <div class="profile-info">
+                    <header class="profile-header">
+                        <h1 class="profile-name" data-testid="test-user-name">CHRISTIAN CHIBUIKE</h1>
+                        <p class="profile-title">Full Stack Developer</p>
+                    </header>
+
+                    <p class="profile-bio" data-testid="test-user-bio">
+                        Versatile Full Stack Developer with 2+ years of experience building scalable applications.
+                        Expert in Node.js and NestJS backends, paired with a passion for creating responsive,
+                        accessible, and high-performance frontend experiences.
+                    </p>
+
+                    <!-- Real-time Clock -->
+                    <div class="time-container">
+                        <span class="time-label">Current Time (UTC):</span>
+                        <span class="time-value" data-testid="test-user-time" aria-live="polite">0000000000000</span>
+                    </div>
+
+                    <!-- Lists Section -->
+                    <div class="lists-grid">
+                        <section class="profile-section">
+                            <h2 class="section-title">Hobbies</h2>
+                            <ul class="profile-list" data-testid="test-user-hobbies">
+                                <li>API Design & Optimization</li>
+                                <li>Building AI Agents</li>
+                                <li>Database Architecture</li>
+                                <li>Learning New Frameworks</li>
+                            </ul>
+                        </section>
+
+                        <section class="profile-section">
+                            <h2 class="section-title">Dislikes</h2>
+                            <ul class="profile-list" data-testid="test-user-dislikes">
+                                <li>Spaghetti Code</li>
+                                <li>Unoptimized Queries</li>
+                                <li>Poor Documentation</li>
+                                <li>Manual Deployment</li>
+                            </ul>
+                        </section>
+                    </div>
+
+                    <!-- Social Links -->
+                    <nav class="social-links-nav">
+                        <ul class="social-links-list" data-testid="test-user-social-links">
+                            <li>
+                                <a href="https://github.com/C3Techie" target="_blank" rel="noopener noreferrer"
+                                    data-testid="test-user-social-github" aria-label="GitHub Profile">
+                                    GitHub
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/christian-chibuike/" target="_blank"
+                                    rel="noopener noreferrer" data-testid="test-user-social-linkedin"
+                                    aria-label="LinkedIn Profile">
+                                    LinkedIn
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://x.com/C3Techie" target="_blank" rel="noopener noreferrer"
+                                    data-testid="test-user-social-twitter" aria-label="Twitter X Profile">
+                                    Twitter
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
