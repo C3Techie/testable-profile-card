@@ -1,0 +1,14 @@
+{
+  "name": "testable-profile-card",
+  "version": "1.0.0",
+  "description": "Accessible and testable profile card for HNG Internship Stage 1B.",
+  "main": "index.html",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "author": "Christian Chibuike",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.42.0"
+  }
+}

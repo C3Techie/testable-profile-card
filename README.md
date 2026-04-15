@@ -54,6 +54,28 @@ The following `data-testid` attributes are implemented for automated testing:
 - `test-user-hobbies`: Hobbies list
 - `test-user-dislikes`: Dislikes list
 
+## 🧪 Running Tests
+This project includes an automated test suite using **Playwright** to verify all HNG Stage 1B requirements.
+
+### Prerequisites
+- [Node.js](https://nodejs.org/) (v18 or higher)
+
+### Setup
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### Run Tests
+- **Run all tests**:
+  ```bash
+  npm test
+  ```
+- **Show test report**:
+  ```bash
+  npx playwright show-report
+  ```
+
 ## 👤 Author
 **Christian Chibuike**  
 - [GitHub](https://github.com/C3Techie)

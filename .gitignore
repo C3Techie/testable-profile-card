@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Test reports
+playwright-report/
+test-results/
+
+# Environment variables (not used here, but good practice)
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
